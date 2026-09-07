@@ -33,6 +33,8 @@ When editing existing code:
 - Don't refactor things that aren't broken.
 - Match existing style, even if you'd do it differently.
 - If you notice unrelated dead code, mention it - don't delete it.
+- Don't add or remove blank lines. Keep whitespace and line endings exactly as found so diffs stay minimal.
+- Don't write comments unless explicitly asked. Only touch an existing comment when your change makes it wrong.
 
 When your changes create orphans:
 - Remove imports/variables/functions that YOUR changes made unused.
